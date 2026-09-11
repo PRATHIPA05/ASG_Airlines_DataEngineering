@@ -31,7 +31,7 @@ ASG_Airlines_DataEngineering/
 │   └── ASG_Airlines_Architecture.drawio
 ├── ASG_Airlines_Dashboard.pbix
 └── README.md
-## Data Processing
+Data Processing
 
 The pipeline follows these main steps:
 
@@ -44,7 +44,7 @@ The pipeline follows these main steps:
 7. Export cleaned datasets as CSV files.
 8. Load the analytical datasets into Power BI.
 9. Build interactive dashboards and KPI visualizations.
-## Power BI Dashboard
+Power BI Dashboard
 
 The dashboard is organized into five pages:
 
@@ -55,7 +55,7 @@ The dashboard is organized into five pages:
 - Delay & Anomaly Insights
 
 The dashboard provides KPI cards, charts, tables, and airline slicers for interactive analysis.
-## Data Quality
+ Data Quality
 
 The pipeline performs data quality checks for:
 
@@ -68,7 +68,7 @@ The pipeline performs data quality checks for:
 - Inconsistent flight timestamps
 
 Records with data-quality issues are flagged or standardized according to the defined cleaning rules.
-## Key Results
+ Key Results
 
 - Total cleaned flight records: 1005
 - Average flight duration: 164.62 minutes
@@ -78,22 +78,22 @@ Records with data-quality issues are flagged or standardized according to the de
 - Unique routes: 30
 - Highest flight traffic route: BOM → CCU
 - Highest flight count by airline: IndiGo
-## Architecture
+Architecture
 
 The project architecture and data flow are documented in:
 
-`docs/architecture.md`
+docs/architecture.md
 
 An editable architecture diagram is available at:
 
-`docs/ASG_Airlines_Architecture.drawio`
-## How to Use
+docs/ASG_Airlines_Architecture.drawio
+How to Use
 
-1. Place the raw Excel workbook in `data/raw/`.
-2. Open `notebook/data_profiling.ipynb`.
+1. Place the raw Excel workbook in data/raw/.
+2. Open notebook/data_profiling.ipynb.
 3. Run the notebook cells to perform profiling, cleaning, transformation, and export.
-4. Use the generated CSV files in the `output/` folder.
-5. Open `ASG_Airlines_Dashboard.pbix` in Power BI to view the dashboard.
+4. Use the generated CSV files in the output/ folder.
+5. Open ASG_Airlines_Dashboard.pbix in Power BI to view the dashboard.
 ## Data Privacy
 
 The source workbook contains passenger-related personal information.
