@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="zF9aifUd32ciek6tLWYH">
+    <mxGraphModel dx="1012" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-10" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ixxjn_FDhq3ay67OG4wN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Raw Excel File&lt;/div&gt;&lt;div&gt;UseCase - Airlines.xlsx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-12" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ixxjn_FDhq3ay67OG4wN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Python / Pandas&lt;/div&gt;&lt;div&gt;Data Ingestion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-14" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ixxjn_FDhq3ay67OG4wN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Data Quality Checks&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Missing values&lt;/div&gt;&lt;div&gt;• Duplicates&lt;/div&gt;&lt;div&gt;• Invalid values&lt;/div&gt;&lt;div&gt;• Time anomalies&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-13" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ixxjn_FDhq3ay67OG4wN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Data Cleaning &amp;amp;&lt;/div&gt;&lt;div&gt;Transformation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Standardization&lt;/div&gt;&lt;div&gt;• Duration calculation&lt;/div&gt;&lt;div&gt;• Route creation&lt;/div&gt;&lt;div&gt;• Overnight detection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="320" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-15" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ixxjn_FDhq3ay67OG4wN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Clean Analytical CSVs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Flights&lt;/div&gt;&lt;div&gt;• Bookings&lt;/div&gt;&lt;div&gt;• Passengers&lt;/div&gt;&lt;div&gt;• Payments&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="320" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-16" edge="1" parent="1" source="Ixxjn_FDhq3ay67OG4wN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ixxjn_FDhq3ay67OG4wN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Power BI Data Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Relationships&lt;/div&gt;&lt;div&gt;• Reference tables&lt;/div&gt;&lt;div&gt;• Analytical model&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixxjn_FDhq3ay67OG4wN-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Interactive Power BI Dashboard&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• KPI cards&lt;/div&gt;&lt;div&gt;• Charts &amp;amp; tables&lt;/div&gt;&lt;div&gt;• Filters / slicers&lt;/div&gt;&lt;div&gt;• Anomaly insights&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="320" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

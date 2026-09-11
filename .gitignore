@@ -1,0 +1,16 @@
+# Raw source data
+data/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Files containing passenger PII
+output/bookings_clean.csv
+output/passengers_clean.csv
